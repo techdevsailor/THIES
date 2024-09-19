@@ -1,0 +1,22 @@
+[
+{
+    "name": "Abubakar",
+    "email": "Abubakar@example.com",
+    "password": "123456",
+    "dob": "28/08/1997"
+  },
+
+  {
+    "name": "Sarmad",
+    "email": "sarmad@example.com",
+    "password": "123456789",
+    "dob": "09/09/1999"
+  },
+
+  {
+    "name": "Jashwant",
+    "email": "jashwant@example.com",
+    "password": "321456",
+    "dob": "08/07/2000"
+  }
+]

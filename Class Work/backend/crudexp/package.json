@@ -1,0 +1,16 @@
+{
+  "name": "crudexp",
+  "version": "1.0.0",
+  "description": "first crud app using express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}

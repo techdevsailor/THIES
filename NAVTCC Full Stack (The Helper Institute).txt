@@ -1,0 +1,205 @@
+Chapter: 01
+
+Domain: unique name of any website i.e google.com etc
+
+Client  (posting request) to Server (which serves)
+Server respond to client
+
+Client IP (like 169.232.116.21) address contact with servers IP Address
+
+Web development: showing something on WWW
+Devloper: write code (front end & Back end)
+
+--------------frontend-----------------(HTML,CSS,Js, React, --- another also Angular.js, Next.js)
+
+HTML: Hyper text markup language (Structured languages) (skull of the website) (high browsers compatibility)
+
+Hyper text:Navigate to other page
+Markup:
+
+Tag: </>, <p><p/>
+
+CSS: Style sheet
+
+JavaScript: Functions of website
+
+DOM: Documen Object Model
+
+HTML Tags: Read and practices different Tags (Table, Br, header, etc)
+Assignement: 
+
+
+--JavaScript:
+Js is a dynamic language
+Ecma Script ES6
+loosly type language
+Single threaded language
+
+# 7 data types (premitives)
+string	textual form a b c etc
+numbers	123
+boolean	true false
+float	1.2   56.4 (decimal)
+bigint	large amount 100000000
+Null	intentionaly left blank during defining veriable
+undefined	not defined, not assign value
+
+#Non premitives data types
+objects	
+arrays	all kind of data like floar, string etc
+functions
+
+
+all premitive data type stored in Stacks (Memory types), also called call by values
+all premitive data type stored in Heap (Memory types), also called call by references
+
+
+functions syntax:
+function Myapp(){}
+
+# Array methods
+	
+
+
+
+# String methods
+	.charAt			//finding characters with index number
+	.charCodeAt		
+	.trim			//remove leading and trailing whitespaces from both ends (start and last)
+	.touppercase		//convert to uppercase letters
+	.tolowercase		//convert to lowercase letters
+	.substring		//specified part of the string between start and end indexes i.e between index 0 and 5
+	.startwith		//check if message starts with any word
+	.endswith		//check if message ends with any word
+	.length			//check length of string
+	.repeat			//repeating the given string 3 times
+many more methods are available online
+
+
+# conditional statement: (if/else, switch/case/break)
+Any value that is not defined as falsy would be considered truthy in JavaScript.
+There are times in JavaScript where you might consider using a switch statement instead of an if else statement.
+
+Note: all example of code available in function.js file
+
+
+
+  
+  console.log(testNum(-5));
+
+
+# Artimatic operator
+
++,-, /, * etc
+
+# conditional operators
+>, <, =< , !=, etc
+
+
+
+
+# Loops:
+
+3 types of loops (for loop, while loop, do while loop)
+
+# Synchronous and Asynchronous
+Synchronous(block begaviour)(one by one like single thread) Every task make saperate thread 
+
+
+Asynchronous (Multi thread type) if one task takes time it shift to next task However, thread same remains Task simultaneously
+
+There are diff function to make Synchronous to Asynchronous i.e callback, promises ( i.e .then, .fetch), Async/Await
+
+Callback: Technique allows a function to call another functionfunctions are executed in the sequence they are called. Not in the sequence they are defined.
+Callback hell: when we call function into function
+
+Promises: A Promise contains both the producing code and calls to the consuming code
+Promise are available after callback
+Promises has 3 states (Pending, success, failure)
+
+Settimeout is a parameter and required 2 values (function and parameter)
+Async/Await:
+
+
+
+
+#Objects
+syntax available in functions.js file
+Object methods/ assign
+	Object.assign		//to merge objects
+	.freeze			//to freez an object
+	.key			//used to retrieve an array of the enumerable property names of an object
+
+
+this keyword is used to access object proporty mostly    (i.e this.)
+
+#Getter & Setter
+getName() & Setname are not a funtion (only getter property)
+
+getter methods are used to access the properties of an object
+setter methods are used to change the values of an object
+
+#DOM Events
+
+
+REACT....(to install or initiate REACT from this link(https://tailwindcss.com/docs/guides/vite)
+
+#Components
+
+#Propos
+
+#Tailwind CSS
+
+#Routing (https://reactrouter.com/en/main)
+
+
+Projects kro warna smjh ni ay ge
+
+------------Backend-----------------(Javascript (Node.js) Express.js --- also these option Java,Python, C++, ,Springboot, Django,ASP.net,Node)
+
+#Node.js....
+(No language,only envoirement)(server side running)
+
+
+#Next.js,express.js, socket.io 
+
+Labraries of node.js to simplify
+Module in Node.js serves as a functionality organized that is associated with multiple JavaScript files. Each module in Node.js comes with its context to stop interfering with other modules or polluting the global scope.
+
+#nodemon (nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.)
+To run or install https://www.npmjs.com/package/nodemon
+
+
+#Methods
+
+File system(https://www.w3schools.com/nodejs/nodejs_filesystem.asp)
+
+
+----Express.js----(Work on Javascript) (Framework of Node.js)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

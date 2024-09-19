@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing:     border-box; */
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+    /* display: flex; */
+    /* align-items: center; */
+    /* padding: 20px 0; */
+       
+
+}
+.container{
+    width: 100%;
+    /* padding: 50px; */
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+nav{
+    display: flex;
+}
+nav ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 60px;
+
+
+}
+
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    color: red;
+}
+
+#logo{
+    font-size: 50px;
+    background-color: red;
+    font-weight: bold;
+    /* padding-left: 10px; */
+    /* display: inline; */
+
+}
+
+.join{
+    padding-left: 300px;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+
+
+
+}
+.main{
+    background-image: url(bg.avif);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+.content{
+    /* margin-top: 50px; */
+    align-items: center;
+}
+
+
+.main a{
+    text-decoration: underline;
+    color: red;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
