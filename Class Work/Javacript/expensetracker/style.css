@@ -1,0 +1,112 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+ 
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    background-color: #6ba9ec;
+  }
+  
+  #balance {
+    text-align: center;
+  }
+  
+  #balance h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  #balance-amount {
+    color: #e405f8;
+  }
+  
+  #transactions h2,
+  #add-transaction h2 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    animation: listItemFadeIn 0.8s ease-in-out;
+  }
+  
+  /* Animate transaction list items */
+  
+  @keyframes listItemFadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .income {
+    background-color: #5ce47c;
+    /* color: #28a745; */
+  }
+  
+  .expense {
+    background-color: #e6616e;
+    /* color: #dc3545; */
+  }
+  
+  label,
+  input,
+  select,
+  button {
+    display: block;
+    margin-bottom: 0.6rem;
+  }
+  
+  input[type='text'],
+  input[type='number'],
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    transition: background-color 0.3s, transform 0.3s;
+  }
