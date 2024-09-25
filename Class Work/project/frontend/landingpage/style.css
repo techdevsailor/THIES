@@ -1,5 +1,7 @@
 *{
-    margin: 0 15px;
+    /* margin: 0 15px; */
+    margin-left: 15px;
+    margin-right: 15px;
     padding: 0;
     box-sizing: border-box;
     background-color: #E7DBFF;
@@ -125,5 +127,86 @@ section img{
 
 }
 
+#p-card1, #h-card1{
+    color: white;
+    background-color: black;
+    text-align: center;
+    
+   
+    
+}
+
+#h-card1{
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+#p-card3, #h-card3{
+    color: black;
+    background-color: #C4B7E5;
+    text-align: center;
+}
+
+#h-card3{
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+.dot {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -35px;
+    left: 145px;
+   
+    
+  }
+
+  .dot img {
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+.team-bg{
+    background-color: rgb(155, 152, 152);
+    height: 300px;
+    width: 100%;
+}
+
+.members{
+    /* background-color: rebeccapurple; */
+    text-align: center;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -150px;
+    left: 100px;
+}
+
+.member1 , .member2 , .member3{
+   border: 3px solid black;
+   margin-top: 13px;
+
+}
 
 
+.right img {
+    height: 250px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+form {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+label, input {
+    padding: 10px;
+    border-radius: 25px;
+    
+}
