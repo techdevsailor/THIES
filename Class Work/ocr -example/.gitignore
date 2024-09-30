@@ -1,0 +1,25 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore build output
+/dist
+/build
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables
+.env
+
+# Ignore compiled files
+*.class
+*.o
+
+# Ignore IDE specific files
+.idea/
+*.sublime-workspace
+*.sublime-project
